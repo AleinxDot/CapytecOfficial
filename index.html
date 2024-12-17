@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/capytec SF.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="JS/Scripts.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Capytec</title>
+</head>
+<body class="light-mode">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#div-presentation"><img src="images/capytec SF.png" alt="" class="img-bar"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#div-presentation">CapyTec</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#div-History">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#div-catalogo">Catalogo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#div-organigrama">Organigrama</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Empresa
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#div-Estructura-Financiera">Estructura Financiera</a></li>
+                                <li><a class="dropdown-item" href="#div-Estudio-Economico">Estudio Económico</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#div-contacto">Contactar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Presentación-->
+    <div class="home">
+        <div class="container text-center" id="div-presentation">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <h2 class="title-inicial">Diseño de Páginas Web</h2>
+                    <h1 class="title-empresa">Capytec</h1>
+                    <p> <br>
+                        Ofrecemos servicios de desarrollo de páginas web personalizadas y funcionales, adaptadas a las necesidades específicas de cada cliente. 
+                        Nuestro enfoque está en crear soluciones digitales que no solo sean estéticamente atractivas, sino que también proporcionen una experiencia de 
+                        usuario intuitiva y eficiente.
+                    </p>
+                    <button class="button-contactar">Contactar</button>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="images/portada.png" alt="" class="img-fluid"> <!-- Añadido img-fluid para responsividad -->
+                </div>
+            </div>
+        </div>
+    
+        <!--Vision y mision de la empresa-->
+        <div class="container text-center" id="div-VM">
+            <div class="row title-div">
+                <div class="col">
+                    <h2>Caracteristicas de Capytec</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                    <div class="card">
+                        <h3>Visión</h3>
+                        <img src="images/vision.png" alt="" class="img-target">
+                        <p class="text-book">
+                            Nuestra visión es generar un impacto positivo en la comunidad mediante soluciones web que potencien los negocios locales, 
+                            aspirando a ser un referente en innovación tecnológica y creando oportunidades para el desarrollo profesional de jóvenes talentos en la región.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                    <div class="card">
+                        <h3>Misión</h3>
+                        <img src="images/mision.png" alt="" class="img-target">
+                        <p class="text-book">
+                            Nuestra misión es diseñar y desarrollar soluciones web personalizadas, innovando con las últimas tecnologías y expandiendo nuestra presencia en Huaraz.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                    <div class="card">
+                        <h3>Características</h3>
+                        <img src="images/iconos/caracteristicas.png" alt="" class="img-target">
+                        <ul>
+                            <li>Diseños adaptativos.</li>
+                            <li>Interfaces personalizadas e interactivas.</li>
+                            <li>Interfaz amigable e intuitivo.</li>
+                            <li>Eficiente y optimizada.</li>
+                            <li>Contenido de calidad.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                    <div class="card">
+                        <h3>Innovación</h3>
+                        <img src="images/iconos/innovacion.png" alt="" class="img-target">
+                        <ul>
+                            <li>Adaptabilidad a cambios por parte de la petición del cliente.</li>
+                            <li>Uso de Tecnologías de Desarrollo Ágil.</li>
+                            <li>Alta compatibilidad en diversos sistemas operativos.</li>
+                            <li>Capacitación y Soporte Post-Lanzamiento.</li>
+                            <li>Animaciones interactivas con el usuario, una navegación más dinámica.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!--Historia de la empresa-->
+        <div class="container text-center" id="div-History">
+            <div class="row title-div">
+                <div class="col">
+                    <h2>Historia de Capytec</h2>
+                </div>
+            </div>
+            <div class="row content-history">
+                <div class="col-8">
+                    <h3>Fundación</h3>
+                    <p>
+                        Un día, mientras trabajábamos en un proyecto de clase, nos dimos cuenta de que muchos negocios locales no tenían presencia en línea. 
+                        Decidimos usar nuestras habilidades en ingeniería de sistemas e informática para ayudar a estos negocios a crear páginas web. 
+                        Así nació nuestra empresa.
+                    </p>
+                </div>
+                <div class="col-4">
+                    <img src="images/iconos/alumnos.png" alt="" class="img-histoy">
+                </div>
+            </div>
+            <div class="row content-history">
+                <div class="col-4">
+                    <img src="images/iconos/publico-objetivo.png" alt="" class="img-histoy">
+                </div>
+                <div class="col-8">
+                    <h3>Objetivo</h3>
+                    <p>
+                        Desarrollar y ofrecer soluciones web personalizadas que satisfagan las necesidades de nuestros clientes, contribuyendo a su eficiencia y 
+                        éxito, al mismo tiempo que expandimos nuestra presencia en la región de Huaraz.
+                    </p>
+                </div>
+            </div>
+            <div class="row content-history">
+                <div class="col-8">
+                    <h3>Logo</h3>
+                    <p>
+                        El nombre "CapyTec" combina la esencia del capibara, un animal conocido por su tranquilidad, sociabilidad y adaptabilidad, con el mundo de la tecnología. 
+                        Esta fusión representa un servicio que es tan confiable, accesible y eficiente como un capibara en su entorno natural, mientras que la tecnología resalta 
+                        el enfoque innovador y moderno en la creación de páginas web.
+                    </p>
+                </div>
+                <div class="col-4">
+                    <img src="images/capytec SF.png" alt="" class="img-histoy">
+                </div>
+            </div>
+        </div>
+        
+        <!--Planes de la empresa-->
+        <div class="container text-center" id="div-Planes">
+            <div class="row title-div">
+                <div class="col">
+                    <h2>Planes Mas Recurrentes</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="encabezado-plan">
+                        <p class="title-plan">Producto 1</p>
+                        <h5>Pagina Coorporativa</h5>
+                        <div class="precio-plan">
+                            <h4 class="precio-plan">S/3,500.00</h4>
+                        </div>
+                        <br><br>
+                        <h6>Detalles:</h6>
+                        <ul class="list-detalls">
+                            <li>Diseño responsivo para adaptarse a dispositivos móviles.</li>
+                            <li>Integración de secciones como "Nosotros", "Servicios", "Contacto", etc.</li>
+                            <li>Implementación de formularios de contacto y suscripción.</li>
+                            <li>Optimización básica de velocidad y rendimiento.</li>
+                        </ul>
+                        <br>
+                        <button class="btn-comprar">
+                            Me interesa
+                        </button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="encabezado-plan">
+                        <p class="title-plan">Producto 2</p>
+                        <h5>Diseño de Interfaz de Usuario Personalizada </h5>
+                        <div class="precio-plan">
+                            <h4 class="precio-plan">S/3,000.00</h4>
+                        </div><br>
+                        <h6>Detalles:</h6>
+                        <ul class="list-detalls">
+                            <li>Se alinean con la marca y los objetivos de negocio.</li>
+                            <li>Están diseñadas para ser intuitivas y fáciles de navegar.</li>
+                            <li>Incluyen prototipos y maquetas iniciales para revisión.</li>
+                            <li>Consideran la accesibilidad y la experiencia del usuario (UX).</li>
+                        </ul>
+                        <br>
+                        <button class="btn-comprar">
+                            Me interesa
+                        </button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="encabezado-plan">
+                        <p class="title-plan">Producto 3</p>
+                        <h5>Optimización SEO para Posicionamiento Web</h5>
+                        <div class="precio-plan">
+                            <h4 class="precio-plan">S/1,200.00</h4>
+                        </div><br>
+                        <h6>Detalles:</h6>
+                        <ul class="list-detalls">
+                            <li>Análisis de palabras clave relevantes para el negocio.</li>
+                            <li>Optimización de contenido y metadatos.</li>
+                            <li>Creación de enlaces entrantes y estrategias de marketing de contenido.</li>
+                            <li>Informes de progreso y análisis de métricas de tráfico.</li>
+                        </ul>
+                        <br>
+                        <button class="btn-comprar">
+                            Me interesa
+                        </button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="encabezado-plan">
+                        <p class="title-plan">Producto 4</p>
+                        <h5>Diseño de Aplicación Web a Medida </h5>
+                        <div class="precio-plan">
+                            <h4 class="precio-plan">S/3,000.00</h4>
+                        </div><br>
+                        <h6>Detalles:</h6>
+                        <ul class="list-detalls">
+                            <li>Se adaptan a las necesidades específicas del negocio.</li>
+                            <li>Incluyen funcionalidades interactivas y bases de datos.</li>
+                            <li>Se diseñan con un enfoque en la escalabilidad y el rendimiento.</li>
+                            <li>Incluyen pruebas y soporte post-lanzamiento.</li>
+                        </ul>
+                        <br>
+                        <button class="btn-comprar">
+                            Me interesa
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Porque elegirnos-->
+        <div class="container my-5" id="div-porque-elegirnos">
+            <h2 class="text-center mb-4">¿Por qué elegir nuestros servicios?</h2>
+            <div class="row text-center g-4">
+        
+                <!-- Experiencia y calidad -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill text-primary fs-1"></i>
+                            </div>
+                            <h5 class="card-title">Experiencia y Calidad Garantizada</h5>
+                            <p class="card-text">Profesionales con amplia experiencia en diseño web y desarrollo, asegurando resultados excepcionales.</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Diseño adaptable -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="bi bi-phone-fill text-success fs-1"></i>
+                            </div>
+                            <h5 class="card-title">Diseño Adaptable</h5>
+                            <p class="card-text">Usamos Bootstrap, líder en desarrollo responsive, para garantizar que tu diseño funcione en cualquier dispositivo.</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Atención personalizada -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="bi bi-chat-dots-fill text-info fs-1"></i>
+                            </div>
+                            <h5 class="card-title">Atención Personalizada</h5>
+                            <p class="card-text">Trabajamos contigo para materializar tus ideas y superar tus expectativas con un enfoque único y personalizado.</p>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+    
+        <!--Organigrama de la empresa-->
+        <div class="container text-center" id="div-organigrama">
+            <div class="row title-div">
+                <h2>Organigrama de capytec</h2>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <img src="images/organigrama capytec SF.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+        <!--Datos de los integrantes-->
+        <div class="container my-5 text-center">
+            <button id="toggle-integrantes" class="btn btn-primary mb-3">Mostrar Integrantes</button>
+            <div id="fichas-integrantes" class="row d-none">
+                <div class="col-md-4 mb-4">
+                    <!--Maria-->
+                    <div class="card">
+                        <h4 class="text-primary">Directora General</h4>
+                        <img src="images/integrants/angela.png" class="card-img- img-integrant">
+                        <div class="card-body">
+                            <h5 class="card-title">Maria Angela Delgado Vega</h5>
+                            <p class="card-text">
+                                Establece la visión y estrategia de la empresa, lidera al equipo y toma decisiones clave para asegurar el éxito del negocio.
+                            </p>
+                            <h6>Dominio</h6>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h6>Frontend</h6>
+                                    <span>
+                                        <img src="images/iconos/html-5.png" alt="">
+                                        <img src="images/iconos/css-3.png" alt="">
+                                    </span>
+                                </div>
+                                <div class="col-6">
+                                    <h6>Backend</h6>
+                                    <span>
+                                        <img src="images/iconos/java.png" alt="">
+                                        <img src="images/iconos/mysql.png" alt="">
+                                        <img src="images/iconos/python.png" alt="">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--alexis-->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <h4 class="text-primary">Jefe de Proyectos</h4>
+                        <img src="images/integrants/alexis.png" class="card-img- img-integrant">
+                        <div class="card-body">
+                            <h5 class="card-title">Alexander Alexis Gonzales Policio</h5>
+                            <p class="card-text">
+                                Coordina y supervisa el desarrollo de proyectos, asegurando que se cumplan los objetivos, plazos y presupuestos establecidos.
+                            </p>
+                            <h6>Dominio</h6>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h6>Frontend</h6>
+                                    <span>
+                                        <img src="images/iconos/html-5.png" alt="">
+                                        <img src="images/iconos/css-3.png" alt="">
+                                        <img src="images/iconos/jquery.png" alt="">
+                                    </span>
+                                </div>
+                                <div class="col-6">
+                                    <h6>Backend</h6>
+                                    <span>
+                                        <img src="images/iconos/java.png" alt="">
+                                        <img src="images/iconos/python.png" alt="">
+                                        <img src="images/iconos/mysql.png" alt="">
+                                        <img src="images/iconos/postgresql.png" alt="">
+                                        <img src="images/iconos/c++.png" alt="">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Denilson-->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <h4 class="text-primary">Desarrollador</h4>
+                        <img src="images/integrants/denilson.png" class="card-img- img-integrant" >
+                        <div class="card-body">
+                            <h5 class="card-title">Denilson Giovanni Huayta Caro</h5>
+                            <p class="card-text">
+                                Se encarga de diseñar, programar y mantener las soluciones web, asegurando su funcionalidad y rendimiento.    
+                            </p>
+                            <h6>Dominio</h6>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h6>Frontend</h6>
+                                    <span>
+                                        <img src="images/iconos/html-5.png" alt="">
+                                        <img src="images/iconos/css-3.png" alt="">
+                                    </span>
+                                </div>
+                                <div class="col-6">
+                                    <h6>Backend</h6>
+                                    <span>
+                                        <img src="images/iconos/java.png" alt="">
+                                        <img src="images/iconos/mysql.png" alt="">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Aldo-->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <h4 class="text-primary">Desarrollador FullStack</h4>
+                        <img src="images/integrants/aldo.jpg" class="card-img img-integrant" >
+                        <div class="card-body">
+                            <h5 class="card-title">Aldo Vitaliano Duran Rojas</h5>
+                            <p class="card-text">
+                                Se encarga de diseñar, programar y mantener las soluciones web, asegurando su funcionalidad y rendimiento.
+                            </p>
+                            <h6>Dominio</h6>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h6>Frontend</h6>
+                                    <span>
+                                        <img src="images/iconos/html-5.png" alt="">
+                                        <img src="images/iconos/css-3.png" alt="">
+                                        <img src="images/iconos/jquery.png" alt="">
+                                    </span>
+                                </div>
+                                <div class="col-6">
+                                    <h6>Backend</h6>
+                                    <span>
+                                        <img src="images/iconos/java.png" alt="">
+                                        <img src="images/iconos/python.png" alt="">
+                                        <img src="images/iconos/mysql.png" alt="">
+                                        <img src="images/iconos/postgresql.png" alt="">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Felix-->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <h4 class="text-primary">Diseñador Gráfico</h4>
+                        <img src="images/integrants/felix.png" class="card-img- img-integrant" >
+                        <div class="card-body">
+                            <h5 class="card-title">Felix Antonio Valvas Robles</h5>
+                            <p class="card-text">
+                                Crea elementos visuales y estéticos para los proyectos web, asegurando que sean atractivos y coherentes con la marca.
+                            </p><h6>Dominio</h6>
+                            <div class="row">
+                                <div class="col">
+                                    <h6>Herramientas</h6>
+                                    <span>
+                                        <img src="images/iconos/figma.png" alt="">
+                                        <img src="images/iconos/photoshop.png" alt="">
+                                        <img src="images/iconos/ilustrator.png" alt="">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--luis-->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <h4 class="text-primary">Especialista en UX</h4>
+                        <img src="images/integrants/luis.png" class="card-img- img-integrant">
+                        <div class="card-body">
+                            <h5 class="card-title">Luis Fernando Jamanca Vega</h5>
+                            <p class="card-text">
+                                Se enfoca en mejorar la experiencia del usuario en los productos digitales, asegurando que sean intuitivos y fáciles de usar
+                            </p>
+                            <h6>Dominio</h6>
+                            <div class="row">
+                                <div class="col">
+                                    <h6>Herramientas</h6>
+                                    <span>
+                                        <img src="images/iconos/figma.png" alt="">
+                                        <img src="images/iconos/photoshop.png" alt="">
+                                        <img src="images/iconos/framer.png" alt="">
+                                        <img src="images/iconos/ilustrator.png" alt="">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--diego-->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <h4 class="text-primary">Especialista en QA y Soporte</h4>
+                        <img src="images/integrants/diego.png" class="card-img- img-integrant">
+                        <div class="card-body">
+                            <h5 class="card-title">Diego Miguel Iparraguirre Ramos</h5>
+                            <p class="card-text">
+                                asegura la calidad del software mediante pruebas rigurosas y proporciona asistencia técnica a los usuarios finales.
+                            </p>
+                            <h6>Dominio</h6>
+                            <div class="row">
+                                <div class="col">
+                                    <h6>Herramientas</h6>
+                                    <span>
+                                        <img src="images/iconos/figma.png" alt="">
+                                        <img src="images/iconos/photoshop.png" alt="">
+                                        <img src="images/iconos/framer.png" alt="">
+                                        <img src="images/iconos/inVision.png" alt="">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <!--Catalogo del producto-->
+    <div class="container my-5" id="div-catalogo">
+        <h1 class="text-center">Catálogo Capytec <img src="images/capytec SF.png" alt="" width="5%"></h1>
+        <div class="row gy-4">
+
+            <!-- Página Corporativa -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                <img src="images/catalogo/pagina corporativa.png" class= "card-img-top" width="100%" alt="Página Corporativa">
+                    <div class="card-body">
+                        <h5 class="card-title">Página Corporativa</h5>
+                        <p class="card-text">Sitios web profesionales y modernos que reflejan la identidad de tu empresa.</p>
+                        <ul>
+                            <li>Diseño elegante y responsivo.</li>
+                            <li>Secciones personalizadas.</li>
+                            <li>Integración con mapas y formularios.</li>
+                        </ul>
+                        <p class="text-primary fw-bold">Precio: Desde S/3,500.00 PEN</p>
+                        <button type="button" class="btn btn-success btn-comprar" id="boton-contactar-cata"><img src="images/catalogo/anadir-a-la-cesta.png" alt="" width="25px"> Contactar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Diseño de Interfaz de Usuario -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="images/catalogo/interfaz usuario.jpg" class="card-img-top" width="100%" alt="Diseño de Interfaz de Usuario">
+                    <div class="card-body">
+                        <h5 class="card-title">Diseño de Interfaz de Usuario</h5>
+                        <p class="card-text">Interfaces atractivas y centradas en la experiencia del usuario.</p>
+                        <ul>
+                            <li>Diseño adaptado a tu marca.</li>
+                            <li>Prototipos interactivos.</li>
+                            <li>Estándares de accesibilidad.</li>
+                        </ul>
+                        <p class="text-primary fw-bold">Precio: Desde S/3,000.00 PEN</p>
+                        <button type="button" class="btn btn-success btn-comprar"><img src="images/catalogo/anadir-a-la-cesta.png" alt="" width="25px"> Contactar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Optimización SEO -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="images/catalogo/optimizacion_SEO.jpg" class="card-img-top" width="100%" alt="Optimización SEO">
+                    <div class="card-body">
+                        <h5 class="card-title">Optimización SEO</h5>
+                        <p class="card-text">Mejora el posicionamiento de tu sitio web en buscadores.</p>
+                        <ul>
+                            <li>Optimización de velocidad de carga.</li>
+                            <li>Contenido SEO estratégico.</li>
+                            <li>Estructura de URL amigable.</li>
+                        </ul>
+                        <p class="text-primary fw-bold">Precio: Desde S/1,200.00 PEN</p>
+                        <button type="button" class="btn btn-success btn-comprar"><img src="images/catalogo/anadir-a-la-cesta.png" alt="" width="25px"> Contactar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Diseño mobil -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="images/catalogo/diseño mobil.jpg" class="card-img-top" width="100%" alt="Optimización SEO">
+                    <div class="card-body">
+                        <h5 class="card-title">Diseño mobil</h5>
+                        <p class="card-text">Mejora tu adaptabilidad en el mundo mobil</p>
+                        <ul>
+                            <li>Diseño interactivo y adaptativo.</li>
+                            <li>Adapatabilidad a diversas pantallas mobiles.</li>
+                            <li>Animaciones personalizadas.</li>
+                        </ul>
+                        <p class="text-primary fw-bold">Precio: Desde S/1,500.00 PEN</p>
+                        <button type="button" class="btn btn-success btn-comprar"><img src="images/catalogo/anadir-a-la-cesta.png" alt="" width="25px"> Contactar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Optimización SEO -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="images/catalogo/monitoreo web.jpg" class="card-img-top" width="100%" alt="Optimización SEO">
+                    <div class="card-body">
+                        <h5 class="card-title">Monitoreo WEB</h5>
+                        <p class="card-text">Manten tu pagina actualizada con la tecnología.</p>
+                        <ul>
+                            <li>Actualización a nuevas tecnologías.</li>
+                            <li>Mantenimiento del sitio Web.</li>
+                            <li>corregir errores o bugs.</li>
+                        </ul>
+                        <p class="text-primary fw-bold">Precio: Desde S/40.00 PEN</p>
+                        <button type="button" class="btn btn-success btn-comprar"><img src="images/catalogo/anadir-a-la-cesta.png" alt="" width="25px"> Contactar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Diseño de Aplicación Web -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                <img src="images/catalogo/sitios web.png" class="card-img-top" width="100%" alt="Diseño de Aplicación Web">
+                    <div class="card-body">
+                        <h5 class="card-title">Diseño de Aplicación Web a Medida</h5>
+                        <p class="card-text">Aplicaciones web personalizadas para satisfacer necesidades específicas.</p>
+                        <ul>
+                            <li>Diseño modular y escalable.</li>
+                            <li>Integración con bases de datos.</li>
+                            <li>Funcionalidad avanzada.</li>
+                        </ul>
+                        <p class="text-primary fw-bold">Precio: Desde S/3,000.00 PEN</p>
+                        <button type="button" class="btn btn-success btn-comprar"><img src="images/catalogo/anadir-a-la-cesta.png" alt="" width="25px"> Contactar</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Presentación estudio economico-->
+    <div class="container mt-4" id="div-Estudio-Economico">
+        <h1 class="text-center text-danger">Estudio Económico</h1>
+        <h3>Proyeccion de ventas en unidades</h3>
+        <table class="table table-bordered text-center">
+            <thead class="thead-light table-primary">
+                <tr>
+                    <th rowspan="2" scope="col">N°</th>
+                    <th rowspan="2" scope="col">Producto</th>
+                    <th rowspan="2" scope="col">Precio (S/.)</th>
+                    <th colspan="4" scope="col">Periodos</th>
+                    <th rowspan="2" scope="col">Total</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th><td>Desarrollo de página web corporativa</td><td>2,000</td><td>4</td><td>4</td><td>3</td><td>2</td><td>13</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th><td>Diseño de GUI personalizada</td><td>1,600</td><td>7</td><td>7</td><td>5</td><td>3</td><td>22</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th><td>Servicio de mantenimiento y soporte</td><td>40</td><td>7</td><td>7</td><td>5</td><td>3</td><td>22</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th><td>Optimización SEO para posicionamiento web</td><td>960</td><td>10</td><td>10</td><td>8</td><td>7</td><td>35</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th><td>Diseño de aplicaciones web a medida</td><td>2,400</td><td>4</td><td>4</td><td>3</td><td>2</td><td>13</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Plan de inversión</h3>
+        <table class="table table-bordered">
+            <thead class="thead-light">
+                <tr class="table-primary">
+                    <th scope="col">Rubro</th>
+                    <th scope="col">Valor Unitario</th>
+                    <th scope="col">Unidades Requeridas</th>
+                    <th scope="col">Inversión total</th>
+                </tr>
+                <tr class="table-secondary">
+                    <th scope="col">1. Activo Fijo</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Terrenos y/o infraestructura</td><td>0</td><td>0</td><td>0</td></tr>
+                <tr><td>Maquinas y equipos</td><td>0</td><td>0</td><td>0</td></tr>
+                <tr><td>Laptos</td><td>0</td><td>4</td><td>0</td></tr>
+                <tr><td>Ordenador</td><td>0</td><td>3</td><td>0</td></tr>
+                <tr><td>Herramientas</td><td>0</td><td>0</td><td>0</td></tr>
+                <tr><td>Visual Studio Code</td><td>0</td><td>5</td><td>0</td></tr>
+                <tr><td>Sublime Text</td><td>0</td><td>5</td><td>0</td></tr>
+                <tr><td>Corel Draw</td><td>81</td><td>3</td><td>243</td></tr>
+                <tr><td>Figma</td><td>48</td><td>3</td><td>144</td></tr>
+                <tr><td>Muebles y Enseres</td><td>0</td><td>0</td><td>0</td></tr>
+                <tr><td colspan="3"><b>Total Activos Fijos</b></td><td><b>23,441</b></td></tr>
+                <tr class="table-secondary"><th scope="col">2. Gastos pre operativos</th><th></th><th></th><th></th></tr>
+                <tr><td>Trámites legales y administrativos</td><td></td><td></td><td>25</td></tr>
+                <tr><td>Diseño de identidad</td><td></td><td></td><td>0</td></tr>
+                <tr><td>Publicidad</td><td></td><td></td><td>80</td></tr>
+                <tr><td>Capacitación</td><td></td><td></td><td>120</td></tr>
+                <tr><td colspan="3"><b>Total de gastos pre operativos</b></td><td><b>225</b></td></tr>
+                <tr class="table-secondary"><th scope="col">3. Capital de trabajo</th><th></th><th></th><th></th></tr>
+                <tr><td>Internet</td><td>0</td><td>7</td><td>0</td></tr>
+                <tr><td>Salarios</td><td>1,200</td><td>7</td><td>14,000</td></tr>
+                <tr><td colspan="3"><b>Total de capital de trabajo</b></td><td><b>14,000</b></td></tr>
+                <tr class="table-light"><td colspan="3"><b>Total</b></td><td><b>14,612</b></td></tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <!--Estructura Finanaciera-->
+    <div class="container mt-4" id="div-Estructura-Financiera">
+        <h1 class="text-center text-danger">Estructura Financiera</h1>
+        <h3 class="text-primary">Inversión inicial</h3>
+        <table class="table table-bordered">
+            <thead class="table-primary">
+                <tr>
+                    <th scope="col">Concepto</th>
+                    <th scope="col">Costos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>infraestructura</td><td>0 (trabajo remoto)</td></tr>
+                <tr><td>Capital de Trabaja</td><td>5,000 (salario primer mes)</td></tr>
+                <tr><td>Equipos</td><td>380 (licencias)</td></tr>
+                <tr><td>Formación y Capacitación</td><td>180</td></tr>
+                <tr><td>Gastos Legales</td><td>500</td></tr>
+                <tr><td>Marketing y publicación</td><td>450</td></tr>
+                <tr><td>Otros</td><td>420 (Internet)</td></tr>
+                <tr class="table-light"><td>Total Inversión inicial</td><td>S/6,930</td></tr>
+            </tbody>
+        </table>
+        <h3 class="text-primary">Costos Fijos Y Costos Variables</h3>
+        <h3>Costos Fijos</h3>
+        <table class="table table-bordered">
+            <thead class="table-primary">
+                <tr>
+                    <th colspan="2" class="text-center">Costos Fijos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Pago de internet</td><td>S/420</td></tr>
+                <tr><td>Pago de seguros</td><td>S/400</td></tr>
+                <tr><td>Mantenimiento de equipos</td><td>S/700</td></tr>
+                <tr><td>Pago de licencias de software</td><td>S/300</td></tr>
+                <tr t><td>Pago de dominios</td><td>S/150</td></tr>
+            </tbody>
+        </table>
+        <h3>Costos Variables</h3>
+        <table class="table table-bordered">
+            <thead class="table-primary">
+                <tr>
+                    <th colspan="2" class="text-center">Costos Variables</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Hosting</td><td>S/100 - s/300</td></tr>
+                <tr><td>Plugins y Extensiones</td><td>S/50 - s/200</td></tr>
+                <tr><td>Capacitación</td><td>S/100 - s/500</td></tr>
+                <tr><td>Adquisición de hardware</td><td>S/100 - s/500</td></tr>
+                <tr><td>Mantenimiento</td><td>S/100 - s/250</td></tr>
+                <tr><td>Publicidad</td><td>S/150 - s/400</td></tr>
+                <tr><td>Pago de salarios</td><td>S/800 - s/3,000</td></tr>
+                <tr class="table-light"><th scope="col">total</th><th>S/1,350 - S/5,150</th></tr>
+            </tbody>
+        </table>
+        <h3 class="text-primary">Fijación de precio del servicio</h3>
+        <h3>Costo Total</h3>
+        <table class="table table-bordered">
+            <thead class="table-primary">
+                <tr>
+                    <th scope="col">Costo Total</th>
+                    <th scope="col">=</th>
+                    <th scope="col">Costo Fijo</th>
+                    <th scope="col">+</th>
+                    <th scope="col">Costo Variable</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>S/3.320</td><td>=</td><td>S/1,970</td><td>+</td><td>S/1,350</td></tr>
+                <tr><td>S/7.120</td><td>=</td><td>S/1,970</td><td>+</td><td>S/5,150</td></tr>
+            </tbody>
+        </table>
+        <h3>Comisión por venta (10%), y gastos externos (S/50).</h3>
+        <table class="table table-bordered">
+            <thead class="table-primary">
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Costos Fijos</th>
+                    <th scope="col">Costos Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Pago de internet</td><td>S/420</td><td>420 + 420(0.1)+50=<b>S/512</b></td></tr>
+                <tr><td>Pago de seguros</td><td>S/400</td><td>400 + 400(0.1)+50=<b>S/490</b></td></tr>
+                <tr><td>Mantenimiento de equipos</td><td>S/700</td><td>700 + 700(0.1)+50=<b>S/820</b></td></tr>
+                <tr><td>Pago de licencias de software</td><td>S/300</td><td>300 + 300(0.1)+50=<b>S/380</b></td></tr>
+                <tr><td>Pago de dominios</td><td>S/150</td><td>150 + 150(0.1)+50=<b>S/215</b></td></tr>
+                <tr class="table-light"><td colspan="2"><b>total</b></td><td><b>S/2,417</b></td></tr>
+            </tbody>
+        </table>
+        <h3>Costo Unitario</h3>
+        <table class="table table-bordered">
+            <thead class="table-primary">
+                <tr>
+                    <th scope="col">Producto o servicio</th>
+                    <th scope="col">Costo unitario</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Desarrollo de Página Web Corporativa</td><td>2,000</td></tr>
+                <tr><td>Diseño de Interfaz de Usuario Personalizada</td><td>1,600</td></tr>
+                <tr><td>Servicio de Mantenimiento y Soporte Técnico </td><td>40</td></tr>
+                <tr><td>Optimización SEO para Posicionamiento Web</td><td>960</td></tr>
+                <tr><td>Diseño de Aplicación Web a Medida </td><td>2,400</td></tr>
+            </tbody>
+        </table>
+        <h3>Precio de Venta</h3>
+        <table class="table table-bordered">
+            <thead class="table-primary">
+                <tr>
+                    <th scope="col">Producto y/o Servicio</th>
+                    <th scope="col">Costo unitario</th>
+                    <th scope="col">Margen de Ganancia (25%)</th>
+                    <th scope="col">Precio de venta</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Desarrollo de Página Web Corporativa </td><td>2,000</td><td>500</td><td>2,500</td></tr>
+                <tr><td>Diseño de Interfaz de Usuario Personalizada</td><td>1,600</td><td>400</td><td>2,000</td></tr>
+                <tr><td>Servicio de Mantenimiento y Soporte Técnico </td><td>40</td><td>10</td><td>50</td></tr>
+                <tr><td>Optimización SEO para Posicionamiento Web </td><td>960</td><td>240</td><td>1.200</td></tr>
+                <tr><td>Diseño de Aplicación Web a Medida </td><td>2,400</td><td>600</td><td>3,000</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!--Contacto-->
+    <div id="div-contacto">
+        <div class="container-fluid content-contacto">
+            <img src="images/contacto/contactar.jpg" alt="" class="fondo-contacto">
+            <h2 class="title-contacto">Contactanos ahora</h2>
+        </div>
+        <div class="container">
+            <div class="taget-contactar">
+                <form action="php/enviar_contacto.php" method="POST" id="contact-form">
+                    <legend>Enviar Mensaje</legend>
+                    <p class="text-contacto">Nombre:</p>
+                    <input type="text" name="nombre" id="nombre" required>
+                    <p class="text-contacto">Email:</p>
+                    <input type="email" name="email" id="email" required>
+                    <p class="text-contacto">Plan Seleccionado:</p>
+                    <select name="plan" id="plan" required>
+                        <option value="" disabled selected>Selecciona un plan</option>
+                        <option value="plan1">Página Corporativa</option>
+                        <option value="plan2">Diseño de UI Personalizada</option>
+                        <option value="plan3">Optimización SEO</option>
+                        <option value="plan4">Aplicación Web a Medida</option>
+                        <option value="plan5">Diseño mobil</option>
+                        <option value="plan6">Monitoreo Web</option>
+                    </select>
+                    <p class="text-contacto">Mensaje:</p>
+                    <textarea name="mensaje" id="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div id="response-message"></div>
+            <p class="text-center">Gracias por contactarse con nosotros, le enviaremos una notificación a su correo ingresado para comunicarnos a detalle</p>
+            <p class="text-center">Puede conocer nuestro catálogo a detalle en nuestras redes</p>
+            <label for="" class="redes text-center">
+                <a href="#"><img src="images/iconos/whatsapp.png" alt="" class="icon-red"></a> 
+                <a href="#"><img src="images/iconos/facebook.png" alt="" class="icon-red"></a>
+            </label>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <!-- Sección Acerca de -->
+                <div class="col-md-4 mb-3">
+                    <h5 class="text-footer">Acerca de CapyTec</h5>
+                    <p class="small">
+                        Somos una empresa dedicada a crear soluciones tecnológicas innovadoras para impulsar el éxito de negocios locales y regionales.
+                    </p>
+                </div>
+                <!-- Sección Enlaces -->
+                <div class="col-md-4 mb-3">
+                    <h5 class="text-footer">Enlaces Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#div-History" class="text-white text-decoration-none">Historia</a></li>
+                        <li><a href="#div-contacto" class="text-white text-decoration-none footer-contacto">Contacto</a></li>
+                        <li><a href="#div-Planes" class="text-white text-decoration-none footer-planes">Servicios</a></li>
+                    </ul>
+                </div>
+                <!-- Sección Contacto -->
+                <div class="col-md-4">
+                    <h5 class="text-footer">Contáctanos</h5>
+                    <p class="mb-1"><i class="bi bi-telephone-fill"></i> +51 917 204 483</p>
+                    <p class="mb-1"><i class="bi bi-envelope-fill"></i> contacto@capytec.com</p>
+                    <p><i class="bi bi-geo-alt-fill"></i> Huaraz, Perú</p>
+                </div>
+            </div>
+            <!-- Línea inferior -->
+            <div class="text-center border-top  width="100%"pt-3 mt-3">
+                <p class="small mb-0">&copy; 2024 CapyTec. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>    
+    
+</body>
+</html>
