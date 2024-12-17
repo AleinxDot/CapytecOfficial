@@ -1,13 +1,24 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Recibir datos del formulario
-    $nombre = $_POST['nombre'];
-    $email = $_POST['email'];
-    $plan = $_POST['plan'];
-    $mensaje = $_POST['mensaje'];
+
+    // Recibir datos del formulario y validar
+    $nombre = isset($_POST['nombre']) ? trim($_POST['nombre']) : '';
+    $email = isset($_POST['email']) ? trim($_POST['email']) : '';
+    $plan = isset($_POST['plan']) ? trim($_POST['plan']) : '';
+    $mensaje = isset($_POST['mensaje']) ? trim($_POST['mensaje']) : '';
+
+    if (empty($nombre) || empty($email) || empty($plan) || empty($mensaje)) {
+        echo "Error: Todos los campos son obligatorios.";
+        exit;
+    }
+
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        echo "Error: El email no es válido.";
+        exit;
+    }
 
     // Destinatario
-    $destinatario = "duraneducationaldo@gmail.com";
+    $destinatario = "aagonzalespolicio@gmail.com";
     $asunto = "Nuevo mensaje de contacto";
 
     // Cuerpo del mensaje
