@@ -47,6 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (mail($destinatario, $asunto, $cuerpo, $headers)) {
         echo "success";
     } else {
+        error_log("Error al enviar el correo a $destinatario");
         echo "error";
     }
 } else {
